@@ -1,28 +1,28 @@
 class Sqlike < Formula
   desc "Deterministic SQL static analysis and query-equivalence checking"
   homepage "https://sqlike.com"
-  version "0.4.4"
+  version "0.4.5"
   license any_of: ["MIT", "Apache-2.0"]
 
   on_macos do
     on_arm do
-      url "https://github.com/orifisher2/sqlike/releases/download/cli-v0.4.4/sqlike-0.4.4-darwin-arm64.tar.gz"
-      sha256 "6e8fea183d0f3b1bd7d77630af46f0fac6094bd80e8f149448ebb58b38b49f30"
+      url "https://github.com/orifisher2/sqlike/releases/download/cli-v0.4.5/sqlike-0.4.5-darwin-arm64.tar.gz"
+      sha256 "28b8aa68af9d55a3e99d841df88fc29e2ad0617b4b94259e058e695792880344"
     end
     on_intel do
-      url "https://github.com/orifisher2/sqlike/releases/download/cli-v0.4.4/sqlike-0.4.4-darwin-x64.tar.gz"
-      sha256 "48b6b6f7b489febb345803033fa287b6d803b5d1a5855197f8c4c62bbb716b19"
+      url "https://github.com/orifisher2/sqlike/releases/download/cli-v0.4.5/sqlike-0.4.5-darwin-x64.tar.gz"
+      sha256 "2bbfde975c7589d95131035f35631555d421fdaea4468ed5216025a989b33f4c"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/orifisher2/sqlike/releases/download/cli-v0.4.4/sqlike-0.4.4-linux-arm64.tar.gz"
-      sha256 "35a89a5b86376a65d7cc4e24173585af8c5d6d7abd352fcf438b29833fbc8796"
+      url "https://github.com/orifisher2/sqlike/releases/download/cli-v0.4.5/sqlike-0.4.5-linux-arm64.tar.gz"
+      sha256 "32a0259fa03f947f3fe794469832cec3f23f0f0e3afce315201c3fce2a376edc"
     end
     on_intel do
-      url "https://github.com/orifisher2/sqlike/releases/download/cli-v0.4.4/sqlike-0.4.4-linux-x64.tar.gz"
-      sha256 "bce227f95828ffc684e7c6dc003a1fcb699f96d97f2c97a36f0e0f5a70c5a952"
+      url "https://github.com/orifisher2/sqlike/releases/download/cli-v0.4.5/sqlike-0.4.5-linux-x64.tar.gz"
+      sha256 "b078c5ff3c02af42b3a26ddf39aa25c7414683f40db976bc1bc9b9554132fd62"
     end
   end
 
